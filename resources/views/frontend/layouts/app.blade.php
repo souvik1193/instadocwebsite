@@ -35,7 +35,7 @@
         }
     </style>
 
-    <title>Mukti</title>
+    <title>Insta Doctor</title>
 </head>
 
 <body>
@@ -102,8 +102,25 @@
                                     <img src="assets/images/header/1.png" alt="">
                                 </div>
                                 <div class="item-content">
-                                    <span>Number :</span>
-                                    <p>+880123456789</p>
+                                    <span>Contact No:</span>
+                                    <a href="tel:7865958508">
+                                        <p>7865958508</p>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-inner">
+                                <div class="item-thumb">
+                                    <img src="assets/images/header/1.png" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <span>Whatsapp:</span>
+                                    <a href="tel:7865958508">
+                                        <p>8509648067</p>
+                                    </a>
+
                                 </div>
                             </div>
                         </li>
@@ -114,21 +131,14 @@
                                 </div>
                                 <div class="item-content">
                                     <span>Email :</span>
-                                    <p>Mukti@gmail.com</p>
+                                    <a href="mail-to:support@instadoctor.com">
+                                        <p>support@instadoctor.com</p>
+                                    </a>
+
                                 </div>
                             </div>
                         </li>
-                        <li class="item">
-                            <div class="item-inner">
-                                <div class="item-thumb">
-                                    <img src="assets/images/header/3.png" alt="">
-                                </div>
-                                <div class="item-content">
-                                    <span>Address :</span>
-                                    <p>12 North West New York 100</p>
-                                </div>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -204,9 +214,13 @@
                             <p>Our services help patients where distance is a critical factor. We bridge the gap and
                                 bring them in touch with the best medical facilities. Hence our services can help
                                 patients coming from distant places with facilities such as providing them with
-                                information for improved diagnosis and treatment. Our specific facilities will enable
-                                patients to acquire a consultation with our expert doctors, order medicine, request
-                                diagnostic tests, and get support with visa or passport-related matters.</p>
+                                information for improved diagnosis and support for allopathic, homeopathic, and
+                                ayurvedic treatment. Our specific facilities will enable patients to acquire both online
+                                and offline consultations with our expert doctors, order medicine, request diagnostic
+                                tests, and get support with visa or passport-related matters, all ticketing inside
+                                India, pick up and drop services from the airport, train station and bus stop
+                                accommodation, medical guide and many more.
+                            </p>
 
                         </div>
                     </div>
@@ -298,43 +312,48 @@
                             <div class="">
                                 <div class="department-top">
                                     <ul class="nav dep-tab" role="tablist">
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                                             <a class="active" href="#one" role="tab" data-toggle="tab"><img
+                                                    style="width: 60px !important; height: 60px !important"
+                                                    src="https://cdn-icons-png.flaticon.com/512/5996/5996051.png"
+                                                    alt="depart"></a>
+                                        </li>
+                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                            <a class="" href="#two" role="tab" data-toggle="tab"><img
                                                     src="http://labartisan.net/demo/mukti/assets/images/depart/icon/01.png"
                                                     alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                            <a class="" href="#two" role="tab" data-toggle="tab"><img
+                                            <a class="" href="#three" role="tab" data-toggle="tab"><img
                                                     src="http://labartisan.net/demo/mukti/assets/images/depart/icon/07.png"
                                                     alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <a class="" href="#three" role="tab" data-toggle="tab"><img style="width: 60px !important; height: 60px !important"
+                                            <a class="" href="#four" role="tab" data-toggle="tab"><img
+                                                    style="width: 60px !important; height: 60px !important"
                                                     src="https://cdn-icons-png.flaticon.com/512/196/196578.png"
                                                     alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <a class="" href="#four" role="tab" data-toggle="tab"><img style="width: 60px !important; height: 60px !important"
-                                                src="https://cdn-icons-png.flaticon.com/512/3595/3595848.png"
-                                                alt="depart"></a>
+                                            <a class="" href="#five" role="tab" data-toggle="tab"><img
+                                                    style="width: 60px !important; height: 60px !important"
+                                                    src="https://cdn-icons-png.flaticon.com/512/3595/3595848.png"
+                                                    alt="depart"></a>
                                         </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                            <a class="" href="#five" role="tab" data-toggle="tab"><img style="width: 60px !important; height: 60px !important"
-                                                src="https://cdn-icons-png.flaticon.com/512/5996/5996051.png"
-                                                alt="depart"></a>
-                                        </li>
+                                        
 
                                     </ul>
                                 </div>
                             </div>
                             <div class="department-bottom wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                                 <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane fade in" id="five">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="one">
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/4225920/pexels-photo-4225920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                                    alt="depart">
+                                                    <img style="height: 350px !important; width:560px !important"
+                                                        src="https://images.pexels.com/photos/4225920/pexels-photo-4225920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                        alt="depart">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
@@ -351,11 +370,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane fade in active" id="one">
+                                    <div role="tabpanel" class="tab-pane fade in" id="two">
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                    <img style="height: 350px !important; width:560px !important"
+                                                        src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                                         alt="depart">
                                                 </div>
                                             </div>
@@ -373,11 +393,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="two">
+                                    <div role="tabpanel" class="tab-pane fade in" id="three">
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                    <img style="height: 350px !important; width:560px !important"
+                                                        src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                                         alt="depart">
                                                 </div>
                                             </div>
@@ -394,12 +415,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="three">
+                                    <div role="tabpanel" class="tab-pane fade in" id="four">
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/346798/pexels-photo-346798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                                    alt="depart">
+                                                    <img style="height: 350px !important; width:560px !important"
+                                                        src="https://images.pexels.com/photos/346798/pexels-photo-346798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                        alt="depart">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
@@ -416,12 +438,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="four">
+                                    <div role="tabpanel" class="tab-pane fade in" id="five">
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/7659567/pexels-photo-7659567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                                    alt="depart">
+                                                    <img style="height: 350px !important; width:560px !important"
+                                                        src="https://images.pexels.com/photos/7659567/pexels-photo-7659567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                        alt="depart">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
@@ -460,7 +483,7 @@
                             <img src="http://labartisan.net/demo/mukti/assets/images/counter/01.png" alt="counter">
                         </div>
                         <div class="counter-content">
-                            <h3 class="number"><span class="counter">50000</span></h3>
+                            <h3 class="number"><span class="counter">450</span></h3>
                             <p class="post-content">number of patients served</p>
                         </div>
                     </div>
@@ -471,7 +494,7 @@
                             <img src="http://labartisan.net/demo/mukti/assets/images/counter/02.png" alt="counter">
                         </div>
                         <div class="counter-content">
-                            <h3 class="number"><span class="counter">400</span></h3>
+                            <h3 class="number"><span class="counter">27</span></h3>
                             <p class="post-content">number of doctors tied up</p>
                         </div>
                     </div>
@@ -483,7 +506,7 @@
                                 src="http://labartisan.net/demo/mukti/assets/images/counter/03.png" alt="counter">
                         </div>
                         <div class="counter-content">
-                            <h3 class="number"><span class="counter">120</span></h3>
+                            <h3 class="number"><span class="counter">14</span></h3>
                             <p class="post-content">hospitals tied up</p>
                         </div>
                     </div>
@@ -494,7 +517,7 @@
                             <img src="http://labartisan.net/demo/mukti/assets/images/counter/04.png" alt="counter">
                         </div>
                         <div class="counter-content">
-                            <h3 class="number"><span class="counter">350</span></h3>
+                            <h3 class="number"><span class="counter">134</span></h3>
                             <p class="post-content">medical visits for patients</p>
                         </div>
                     </div>
@@ -534,6 +557,10 @@
     <!-- ==========Contact Section Start Here========== -->
     <section id="contact" class="contact-us padding-tb">
         <div class="container">
+            <div class="section-header">
+                <h2><span>Contact Us </span></h2>
+
+            </div>
             <div class="section-wrapper">
                 <div class="row">
                     <div class="col-lg-6 col-12">
@@ -542,22 +569,30 @@
                             <ul>
                                 <li>
                                     <h6>Office Address:</h6>
-                                    <p>Suite 02, Level 12, Sahera Tropical Center 218 New Elephant Road, Dhaka - 1205
+                                    <p>Biman Saha
+                                        C/o- Pradhan Mantri Bhartiya Janaushadhi Kendra
+                                        Near Madarihat Rural Hospital entry gate
+                                        Vill- Aswaninagar 2 no. Ward
+                                        P.O+P.S- Madarihat
+                                        Dist -Alipurduar
+                                        West Bengal- 735220
                                     </p>
                                 </li>
                                 <li>
                                     <h6>Phone Number:</h6>
-                                    <p>+8801678170593, 01919-264687</p>
-                                    <p>02-9611936</p>
+                                    <p>7865958508</p>
+
+                                </li>
+                                <li>
+                                    <h6>Whatsapp:</h6>
+                                    <p>8509648067</p>
+
                                 </li>
                                 <li>
                                     <h6>Email Address:</h6>
-                                    <a href="#">support@LabArtisan</a>
+                                    <a href="#">support@instadoctor.com</a>
                                 </li>
-                                <li>
-                                    <h6>Website Address:</h6>
-                                    <a href="http://LabArtisan/">http://LabArtisan</a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
