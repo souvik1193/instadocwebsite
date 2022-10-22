@@ -152,9 +152,9 @@
                                 <li><a href="#contact">Contact</a>
 
                                 </li>
-                                <li class="nav-item dropdown">
+                                {{-- <li class="nav-item dropdown">
                                     <div id="google_translate_element"></div>
-                                </li>
+                                </li> --}}
 
                             </ul>
 
@@ -299,29 +299,29 @@
                                 <div class="department-top">
                                     <ul class="nav dep-tab" role="tablist">
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                                            <a class="" href="#one" role="tab" data-toggle="tab"><img
+                                            <a class="active" href="#one" role="tab" data-toggle="tab"><img
                                                     src="http://labartisan.net/demo/mukti/assets/images/depart/icon/01.png"
                                                     alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                            <a class="active" href="#two" role="tab" data-toggle="tab"><img
-                                                    src="http://labartisan.net/demo/mukti/assets/images/depart/icon/02.png"
+                                            <a class="" href="#two" role="tab" data-toggle="tab"><img
+                                                    src="http://labartisan.net/demo/mukti/assets/images/depart/icon/07.png"
                                                     alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <a class="" href="#three" role="tab" data-toggle="tab"><img
-                                                    src="http://labartisan.net/demo/mukti/assets/images/depart/icon/03.png"
+                                            <a class="" href="#three" role="tab" data-toggle="tab"><img style="width: 60px !important; height: 60px !important"
+                                                    src="https://cdn-icons-png.flaticon.com/512/196/196578.png"
                                                     alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <a class="" href="#four" role="tab" data-toggle="tab"><img
-                                                    src="http://labartisan.net/demo/mukti/assets/images/depart/icon/04.png"
-                                                    alt="depart"></a>
+                                            <a class="" href="#four" role="tab" data-toggle="tab"><img style="width: 60px !important; height: 60px !important"
+                                                src="https://cdn-icons-png.flaticon.com/512/3595/3595848.png"
+                                                alt="depart"></a>
                                         </li>
                                         <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                            <a class="" href="#five" role="tab" data-toggle="tab"><img
-                                                    src="http://labartisan.net/demo/mukti/assets/images/depart/icon/05.png"
-                                                    alt="depart"></a>
+                                            <a class="" href="#five" role="tab" data-toggle="tab"><img style="width: 60px !important; height: 60px !important"
+                                                src="https://cdn-icons-png.flaticon.com/512/5996/5996051.png"
+                                                alt="depart"></a>
                                         </li>
 
                                     </ul>
@@ -333,8 +333,8 @@
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img src="http://labartisan.net/demo/mukti/assets/images/depart/10.jpg"
-                                                        alt="depart">
+                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/4225920/pexels-photo-4225920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                    alt="depart">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
@@ -355,7 +355,7 @@
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img src="http://labartisan.net/demo/mukti/assets/images/depart/07.jpg"
+                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                                         alt="depart">
                                                 </div>
                                             </div>
@@ -377,7 +377,7 @@
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img src="http://labartisan.net/demo/mukti/assets/images/depart/08.jpg"
+                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                                         alt="depart">
                                                 </div>
                                             </div>
@@ -398,13 +398,13 @@
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img src="http://labartisan.net/demo/mukti/assets/images/depart/09.jpg"
-                                                        alt="depart">
+                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/346798/pexels-photo-346798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                    alt="depart">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-content">
-                                                    <h3>visa & Passports for medical visits</h3>
+                                                    <h3>Visa & Passports for medical visits</h3>
                                                     <p>Our team in InstaDoctor helps you to prepare your visa
                                                         application to get a quick medical visa. We also help with
                                                         passport and cross-border travel for medical purposes. Call us
@@ -420,8 +420,8 @@
                                         <div class="row flex-row-reverse align-items-center">
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-thumb">
-                                                    <img src="http://labartisan.net/demo/mukti/assets/images/depart/10.jpg"
-                                                        alt="depart">
+                                                    <img style="height: 350px !important; width:560px !important" src="https://images.pexels.com/photos/7659567/pexels-photo-7659567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                                    alt="depart">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-lg-6">
