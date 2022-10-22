@@ -121,6 +121,21 @@ return [
     |
     */
 
+    /*
+|--------------------------------------------------------------------------
+| Available locales
+|--------------------------------------------------------------------------
+|
+| List all locales that your application works with
+|
+*/
+
+    'available_locales' => [
+        'English' => 'en',
+        'Russian' => 'ru',
+        'French' => 'fr',
+    ],
+
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
