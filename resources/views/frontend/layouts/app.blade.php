@@ -131,8 +131,8 @@
                                 </div>
                                 <div class="item-content">
                                     <span>Email :</span>
-                                    <a href="mail-to:support@instadoctor.com">
-                                        <p>support@instadoctor.com</p>
+                                    <a href="mail-to:support@instadoctor.co">
+                                        <p>support@instadoctor.co</p>
                                     </a>
 
                                 </div>
@@ -183,11 +183,10 @@
         <div class="container">
             <div class="banner-wrapper">
                 <div class="banner-content">
-                    <h2 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".1s">Best Medical
-                        Clinic
+                    <h2 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".1s">Get Best Medical
+                        Consultations
                     </h2>
-                    <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s"><b>Bringing
-                            Health</b> To Life For The Whole Family...</h1>
+                    <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s"><b>Medicine Order</b> And Help On Your Medical Visits...</h1>
 
                 </div>
             </div>
@@ -590,7 +589,7 @@
                                 </li>
                                 <li>
                                     <h6>Email Address:</h6>
-                                    <a href="#">support@instadoctor.com</a>
+                                    <a href="#">support@instadoctor.co</a>
                                 </li>
 
                             </ul>
@@ -603,7 +602,7 @@
                             <form method="POST" action="{{ route('contact.store') }}">
                                 @csrf
                                 <input type="text" id="fname" name="name" placeholder="Your Name">
-                                <input type="email" id="fname" name="email" placeholder="Your Eamil">
+                                <input type="email" id="fname" name="email" placeholder="Your Email">
                                 <input type="text" id="lname" name="mobile" placeholder="Phone Number">
 
                                 <textarea name="message" id="" cols="20" rows="5"></textarea>
@@ -620,7 +619,7 @@
     <!-- ==========Contact Section Ends Here========== -->
 
     <!-- ==========Footer Section Ends Here========== -->
-    <section class="footer-section style-1">
+    <!-- <section class="footer-section style-1">
         <div class="container">
             <div class="section-wrapper">
                 <div class="footer-top">
@@ -730,7 +729,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ==========Footer Section Ends Here========== -->
 
     <!-- scrollToTop start here -->
