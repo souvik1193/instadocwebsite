@@ -102,7 +102,7 @@
                                     <img src="assets/images/header/1.png" alt="">
                                 </div>
                                 <div class="item-content">
-                                    <span>Contact No:</span>
+                                    <span>{{__("msg.Contact")}}</span>
                                     <a href="tel:7865958508">
                                         <p>7865958508</p>
                                     </a>
@@ -116,7 +116,7 @@
                                     <img src="assets/images/header/1.png" alt="">
                                 </div>
                                 <div class="item-content">
-                                    <span>Whatsapp:</span>
+                                    <span>{{__("msg.whatsapp")}}:</span>
                                     <a href="tel:7865958508">
                                         <p>8509648067</p>
                                     </a>
@@ -130,7 +130,7 @@
                                     <img src="assets/images/header/2.png" alt="">
                                 </div>
                                 <div class="item-content">
-                                    <span>Email :</span>
+                                    <span>{{__("msg.Email")}} :</span>
                                     <a href="mail-to:support@instadoctor.co">
                                         <p>support@instadoctor.co</p>
                                     </a>
@@ -199,7 +199,8 @@
     <section id="about" class="service-section style-1 padding-tb bg-color">
         <div class="container">
             <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                <h2><span>About Us</span></h2>
+                <!-- <h2><span>About Us</span></h2> -->
+                <h2><span>{{__("msg.About")}}</span></h2>
 
             </div>
             <div class="section-wrapper">
@@ -209,8 +210,8 @@
                             <img src="http://labartisan.net/demo/mukti/assets/images/service/01.jpg" alt="service">
                         </div>
                         <div class="service-content">
-
-                            <p>Our services help patients where distance is a critical factor. We bridge the gap and
+                                <p>{{__("msg.AboutDescription")}}</p>
+                            <!-- <p>Our services help patients where distance is a critical factor. We bridge the gap and
                                 bring them in touch with the best medical facilities. Hence our services can help
                                 patients coming from distant places with facilities such as providing them with
                                 information for improved diagnosis and support for allopathic, homeopathic, and
@@ -219,7 +220,7 @@
                                 tests, and get support with visa or passport-related matters, all ticketing inside
                                 India, pick up and drop services from the airport, train station and bus stop
                                 accommodation, medical guide and many more.
-                            </p>
+                            </p> -->
 
                         </div>
                     </div>
@@ -229,9 +230,6 @@
             <div class="container">
                 <div class="feature-section-wrapper">
                     <div class="section-header wow fadeInUp" data-wow-delay="" data-wow-duration="1s">
-
-
-
                     </div>
                     <div class="section-content">
                         <div class="row justify-content-center">
@@ -302,8 +300,8 @@
         <div class="container">
             <div class="department-wrapper">
                 <div class="section-header">
-                    <h2><span>Our Services </span></h2>
-
+                    <!-- <h2><span>Our Services </span></h2> -->
+                    <h2><span>{{__("msg.Services")}}</span></h2>
                 </div>
                 <div class="section-content">
                     <div class="row">
@@ -357,12 +355,14 @@
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-content">
-                                                    <h3>Medical Consultation</h3>
-                                                    <p>Are you looking to consult with trustworthy doctors and get
+                                                    <!-- <h3>Medical Consultation</h3> -->
+                                                    <h3>{{__("msg.Medical-Consultation")}}</h3>
+                                                    <p>{{__("msg.MedicalDescription")}}</p>
+                                                    <!-- <p>Are you looking to consult with trustworthy doctors and get
                                                         medical facilities at an affordable cost? We have the best
                                                         doctors registered with us who not only provide consultation
                                                         online but also can be visited offline. Call us at the below
-                                                        number for further details.</p>
+                                                        number for further details.</p> -->
 
 
                                                 </div>
@@ -380,12 +380,14 @@
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-content">
-                                                    <h3>Medicine Order</h3>
-                                                    <p>Do you want to order some medicine and wish them to be delivered
+                                                    <!-- <h3>Medicine Order</h3> -->
+                                                    <h3>{{__("msg.Medical-order")}}</h3>
+                                                    <p>{{__("msg.medicalOrder-description")}}</p>
+                                                    <!-- <p>Do you want to order some medicine and wish them to be delivered
                                                         in no time at a reasonable cost from outside India? We have a
                                                         wonderful chain of delivery that ensures that your medicines
                                                         reach you on time. Call us at the below number to order
-                                                        medicine.</p>
+                                                        medicine.</p> -->
 
 
                                                 </div>
@@ -403,11 +405,13 @@
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-content">
-                                                    <h3>Lab Test</h3>
-                                                    <p>Book your lab test with our InstaDoctor registered labs. Get all
+                                                    <!-- <h3>Lab Test</h3> -->
+                                                    <h3>{{__("msg.labTest")}}</h3>
+                                                    <p>{{__("msg.labTest-description")}}</P>
+                                                    <!-- <p>Book your lab test with our InstaDoctor registered labs. Get all
                                                         your Lab tests done at a reasonable rate and get hassle-free
                                                         sample collection and report delivery. Call us at the below
-                                                        number to book a test.</p>
+                                                        number to book a test.</p> -->
 
 
                                                 </div>
@@ -425,12 +429,13 @@
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-content">
-                                                    <h3>Visa & Passports for medical visits</h3>
-                                                    <p>Our team in InstaDoctor helps you to prepare your visa
+                                                    <h3>{{__("msg.Visa")}}:</h3>
+                                                    <p>{{__("msg.Visa-Descreiption")}}</p>
+                                                    <!-- <p>Our team in InstaDoctor helps you to prepare your visa
                                                         application to get a quick medical visa. We also help with
                                                         passport and cross-border travel for medical purposes. Call us
                                                         at the below number to get assistance on your medical visits.
-                                                    </p>
+                                                    </p> -->
 
 
                                                 </div>
@@ -448,11 +453,13 @@
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <div class="post-content">
-                                                    <h3>Travel Support for medical purposes:</h3>
-                                                    <p>We provide all sorts of travel assistance by bus, train, and
+                                                    <!-- <h3>Travel Support for medical purposes:</h3> -->
+                                                    <h3>{{__("msg.Travel")}}</h3>
+                                                    <p>{{__("msg.Travel-description")}}</p>
+                                                    <!-- <p>We provide all sorts of travel assistance by bus, train, and
                                                         flight. Don't bother about your lodging and fooding as we manage
                                                         that as well during your medical visits. If required we tag
-                                                        along a medical attender to assist you 24*7.</p>
+                                                        along a medical attender to assist you 24*7.</p> -->
 
 
                                                 </div>
